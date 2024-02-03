@@ -1,0 +1,45 @@
+.header{
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    >.logo{
+        height: 100%;
+        width: 8%;
+        padding:  0 10px;
+    
+    }
+    >.search-icon{
+        color: white;
+    background: black;
+    right: 10px;
+    position: absolute;
+    right: 20px;
+    min-height: 30px;
+    min-width: 30px;
+    padding: 10px;
+    cursor: pointer;
+    &:hover{
+        color: red;
+        transition: all 0.5s;
+    }
+    }
+    >.nav-component{
+        padding: 0 10px;
+        display: flex;
+        >a{
+            color: white;
+            text-decoration: none;
+            justify-content: space-evenly;
+            padding: 10px;
+            font-weight: 800;
+            &:hover{
+                color: red;
+                transition: all 0.5s;
+            }
+        }
+       
+    }
+    
+    
+}
